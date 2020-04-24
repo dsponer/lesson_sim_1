@@ -8,7 +8,7 @@ set(ROOT_PATH "${CMAKE_CURRENT_SOURCE_DIR}")
 set(SOURCE
         ${ROOT_PATH}/remoteApi/extApi.c
         ${ROOT_PATH}/remoteAPi/extApiPlatform.c
-)
+        )
 
 include_directories(${ROOT_PATH}/remoteApi ${ROOT_PATH}/include ${ROOT_PATH}/simMath)
 
